@@ -1,0 +1,18 @@
+.logOutButton{
+    height: 35px;
+    width: 80px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+/* Style for active NavLink */
+.nav-link.active {
+    font-weight: bold;
+    color: #fff; /* Color for active link text */
+    background-color: transparent; /* Set background color of active link */
+    border-bottom: 2px solid #fff; /* Add bottom border */
+  }
+  

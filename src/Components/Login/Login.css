@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.loginContainer{
+    height: 100vh;
+    display: flex;
+    
+    
+}
+
+.login-banner-style{
+    height: 500px;
+}
+
+.login-banner-div{
+    background-color:#f5f0e1;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-content-div{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.logo-arrangement{
+    height: 100px;
+}
+
+.formStyle{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.inputStyle{
+    height: 40px;
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.formStyle a{
+    align-self: flex-end;
+    font-size: 13px;
+    color: rgb(30, 168, 223);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-style-button{
+    height: 35px;
+    align-self: center;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #68e1fd;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width:1080px) {
+    .login-banner-div{
+        width: 50%;
+    }
+    .login-content-div{
+       
+        width: 80%;
+    }
+    .login-banner-style{
+        height: 300px;
+    }
+}
+
+@media (max-width:767px) {
+    .login-banner-div{
+        display: none;
+    }
+    .login-content-div{
+    width: 100%;
+    text-align: center;
+
+    }
+}
